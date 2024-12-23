@@ -1,0 +1,83 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sezione di introduzione */
+#intro {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sezione quiz */
+.quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#question-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.answer {
+    display: block;
+    background-color: #4CAF50;
+    margin: 10px auto;
+    width: 60%;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answer:hover {
+    background-color: #45a049;
+}
+
+/* Sezione risultato */
+.result-container {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La sorpresa di Natale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="intro">
+            <h1>❄️🎅 Benvenuta nella sorpresa di Natale! 🎅❄️</h1>
+            <p>✨ Rispondi a queste domande per scoprire il tuo regalo speciale! ✨</p>
+            <button onclick="startQuiz()">Inizia!</button>
+        </div>
+
+        <div id="quiz" class="quiz-container" style="display:none;">
+            <div id="question-container">
+                <p id="question-text"></p>
+                <button class="answer" onclick="answerQuestion(0)"></button>
+                <button class="answer" onclick="answerQuestion(1)"></button>
+                <button class="answer" onclick="answerQuestion(2)"></button>
+            </div>
+        </div>
+
+        <div id="result" class="result-container" style="display:none;">
+            <h2>Il tuo regalo di Natale è un...concerto dei Pinguini Tattici Nucleari 🐧🐧🐧</h2>
+            <p id=gift-message> </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
